@@ -1,0 +1,78 @@
+﻿<!doctype html>  
+<html lang="en">  
+<head>  
+  <meta charset="utf-8">  
+  <title>The HTML5 Herald</title>  
+  <meta name="description" content="The HTML5 Herald">  
+  <meta name="author" content="SitePoint">  
+  <link rel="stylesheet" href="css/styles.css?v=1.0">  
+  <!--[if lt IE 9]>  
+  <script src="js/ie9.js"></script>  
+  <![endif]-->  
+
+
+
+  <style type="text/css"> 
+div
+{
+border:2px solid #a1a1a1;
+padding:10px 40px; 
+background:#dddddd;
+width:300px;
+border-radius:25px;
+-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+</style>
+
+
+</head>  
+<body>  
+  <script src="js/scripts.js"></script>  
+
+
+
+
+  <script type="text/javascript">
+
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      var grd = ctx.createLinearGradient(0, 0, 175, 50);
+      grd.addColorStop(0, "#FF0000");
+      grd.addColorStop(1, "#00FF00");
+      ctx.fillStyle = grd;
+      ctx.fillRect(0, 0, 175, 50);
+
+</script>
+
+
+
+  
+  User name: <input type="text" name="user_name"  autofocus="true" /> 
+
+<!--
+  <video width="320" height="240" controls="controls">
+
+  <source src="media/movie.ogg" type="video/ogg" />
+  Your browser does not support the video tag.
+</video>
+-->
+
+<!--<canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
+Your browser does not support the canvas element.
+</canvas>-->
+
+
+  <div>The border-radius property allows you to add rounded corners to elements.</div>
+
+</body>  
+</html> 
+
+
+
+
+
+
+
+
+
+

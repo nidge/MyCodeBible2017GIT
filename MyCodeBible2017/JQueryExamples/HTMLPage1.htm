@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> jQuery Demo - How To Get Started With jQuery </title>
+<script type="text/javascript">
+//<![CDATA[
+    try { if (!window.CloudFlare) { var CloudFlare = [{ verbose: 0, p: 0, byc: 0, owlid: "cf", mirage: { responsive: 1, lazy: 0 }, oracle: "40/9572e53b29f873bc8bc29f462dea77", paths: { cloudflare: "/cdn-cgi/nexp/abv=378448694/" }, atok: "a54d5e70e6561dca06ad56f657c75d07", zone: "spyrestudios.com", rocket: "0", apps: 0}]; var a = document.createElement("script"), b = document.getElementsByTagName("script")[0]; a.async = !0; a.src = "//ajax.cloudflare.com/cdn-cgi/nexp/abv=4035706501/cloudflare.min.js"; b.parentNode.insertBefore(a, b); } } catch (e) { };
+//]]>
+</script>
+<link href="Styles/Style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="Scripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function ()
+    {
+        var myQuote = $('#my_quote');
+        myQuote.hide();
+        $('.button').click(function ()
+        {
+            myQuote.show(500);
+        });
+
+
+
+        $("ul.list li:first-child").css("background-color", "blue");
+
+
+        $("li a").fadeOut().fadeIn();
+
+
+
+        $(".overdue").each(function ()
+        {
+            alert("Your book is overdue.");
+        });
+
+
+    });
+    </script>
+</head>
+<body>
+jQuery demo
+<p><em>Feel free to check out the source of this page to have a look at the code!</em></p>
+<p><a href="http://spyrestudios.com/simple-guide-how-to-get-started-with-jquery/" title="Back To Spyre Studios">click here to go back to the article on SpyreStudios</a></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nisl turpis, laoreet convallis varius quis, hendrerit lobortis odio. In commodo est id elit semper eget tincidunt elit luctus. Suspendisse nisi mi, elementum eget malesuada eget, posuere auctor justo. Quisque ultrices, lorem vitae ultricies pretium, ante quam rutrum lectus, in bibendum ante augue eu risus. Suspendisse magna metus, dignissim in feugiat sed, fringilla ut lectus.</p>
+<p>Ut lobortis egestas massa vitae bibendum. Maecenas convallis augue tempor urna tristique placerat auctor tellus adipiscing. Fusce elementum orci neque. Phasellus congue, lorem volutpat euismod ullamcorper, erat odio semper justo, quis hendrerit felis justo pulvinar augue. Nam ac aliquet purus. Nullam neque nibh, faucibus pretium cursus eget, tincidunt tincidunt nisi.</p>
+<p><a href="#" class="button">Click here to show the blockquote</a></p>
+<blockquote id="my_quote"><p>Nulla facilisi. Proin congue enim pharetra leo consectetur non posuere odio suscipit. Ut sapien magna, porta id convallis nec, rutrum ac justo. Sed tincidunt tincidunt erat, bibendum sollicitudin purus consectetur id. Sed ipsum purus, auctor nec dictum nec, fringilla nec nunc. Sed pretium nisl eget lorem tristique mattis.</p></blockquote>
+<div style="clear:both;"></div>
+<p class="footer">Copyright ©2009 <a href="http://spyrestudios.com" title="Spyre Studios - Design, Blogging and Social Media">Spyre Studios</a> - Powered by <a href="http://www.thiswebhost.com/clients/aff.php?aff=035">This*</a>. <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> - <a href="http://validator.w3.org/check?uri=referer">XHTML</a> valid.</p>
+
+
+<a href="http://www.bbc.co.uk"> Click me</a>
+
+<p class="overdue"> Test</p>
+
+<div class="container">
+  <ul class="list">
+
+    <li>Text Here</li>
+    <li>Text Here</li>
+    <li>Text Here</li>
+    <li>Text Here <a href="About.aspx">About</a> </li>
+    <li>Text Here</li>
+  </ul>
+</div>
+
+
+</body>
+</html>

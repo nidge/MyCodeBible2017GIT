@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<script type="text/javascript">
+    function ChangeText() {
+        document.getElementById("p3").innerHTML = "New text!";
+    }
+
+    function ChangeBackground() {
+        document.body.style.backgroundColor = "yellow";
+    }
+</script>
+</head>
+
+
+<body>
+
+<p id="intro">Hello World!</p>
+
+<script type="text/javascript">
+    txt = document.getElementById("intro").innerHTML;
+//    document.write("<p>The text from the intro paragraph: " + txt + "</p>");
+</script>
+
+
+
+<p>Hello World!</p>
+<p>The DOM is very useful!</p>
+<p>This example demonstrates the <b>length</b> property.</p>
+
+<script type="text/javascript">
+    x = document.getElementsByTagName("p");
+  //  for (i = 0; i < x.length; i++) {
+    //    document.write(x[i].innerHTML);
+      //  document.write("<br />");
+    }
+</script>
+
+
+<p id="P1">Hello World!</p>
+<p id="P2">Hello World2!</p>
+
+<script type="text/javascript">
+    x = document.getElementById("intro");
+    document.write(x.lastChild.nodeValue);
+
+    document.body.bgColor = "lavender";
+    
+
+</script>
+
+
+<input type="button" onclick="document.title = 'changing the title';"
+value="Change background color" />
+
+
+<p id="p3">Hello world!</p>
+<input type="button" onclick="ChangeText()" value="Change text" />
+
+<input type="button" onclick="ChangeBackground()"
+value="Change background color" />
+
+</body>
+</html>
+
+
+
+
+
